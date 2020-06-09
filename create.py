@@ -16,8 +16,8 @@ def create():
 
 def github_create(folderName):
     # Get API Token from https://github.com/settings/tokens
-    api_token = 'e79fb763183420bdb9cef0ef89f9840b5cce912d'
-    user='akhilesh-k'
+    api_token = 'api_token'
+    user='your_user_name-k'
     headers = {
             'Content-Type': 'application/json',
             'Authorization': 'token ' + api_token
@@ -25,7 +25,7 @@ def github_create(folderName):
     data = {
             "name": folderName,
             "description": "Initializing the project.",
-            "homepage": "https://akhilesh-k.github.io/"+folderName,
+            "homepage": "https://user_name.github.io/"+folderName,
             "private": 'true',
             "auto_init": 'true'
             }
