@@ -26,7 +26,9 @@ I have created a shell script and a python script which uses Github API that wil
 ### Setup:
 
 `cp create.py ~/`
+
 `cp .command.sh ~/`
+
 `source ~/command.sh`
 
 Finally open your `.zshrc` or `.bashrc` file and add there also.
